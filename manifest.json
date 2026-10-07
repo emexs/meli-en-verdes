@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "En Verdes",
+  "version": "1.1",
+  "description": "Shows prices in USD (BNA rate) below ARS prices on MercadoLibre Argentina",
+  "permissions": [],
+  "host_permissions": [
+    "https://www.bna.com.ar/*",
+    "https://*.mercadolibre.com.ar/*",
+    "https://*.mercadolibre.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.mercadolibre.com.ar/*",
+        "https://*.mercadolibre.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
