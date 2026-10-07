@@ -1,4 +1,4 @@
-// En Verdes - content.js v1.2
+// Meli en Verdes - content.js v1.2
 (function () {
   'use strict';
 

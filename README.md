@@ -1,4 +1,4 @@
-# En Verdes 💵
+# Meli en Verdes 💵
 
 **¿Cuánto es en verdes?** Extensión de Chrome que muestra el equivalente en dólares debajo de cada precio en pesos en MercadoLibre Argentina, usando la cotización oficial del Banco Nación (BNA).
 
@@ -23,7 +23,7 @@ No está publicada en la Chrome Web Store, se carga manualmente:
 
 1. Cloná o descargá este repositorio:
    ```bash
-   git clone https://github.com/emexs/enverdes.git
+   git clone https://github.com/emexs/meli-en-verdes.git
    ```
 2. Abrí `chrome://extensions` en Chrome (o cualquier navegador basado en Chromium: Edge, Brave, Arc...).
 3. Activá el **Modo de desarrollador** (arriba a la derecha).

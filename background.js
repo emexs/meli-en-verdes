@@ -1,4 +1,4 @@
-// En Verdes - background.js
+// Meli en Verdes - background.js
 // Cache the BNA exchange rate for 1 hour
 let cachedRate = null;
 let cacheTime = 0;
